@@ -28,3 +28,16 @@ The project aims to replicate useful parts of the NodeJS ecosystem using Bash to
 - Documentation and examples
 
 BashJS is a work in progress. Contributions and ideas are welcome.
+
+## WASM Interpreter Demo
+
+The repository includes a small Bash-based interpreter capable of executing a
+subset of WebAssembly text format. Run the script with the sample `demo.wasm`
+to calculate Fibonacci numbers:
+
+```bash
+./wasm_interpreter.sh demo.wasm fib 7
+```
+
+The `demo.ts` file shows the original TypeScript source that was compiled to
+`demo.wasm`.
